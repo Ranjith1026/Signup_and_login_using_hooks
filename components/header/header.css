@@ -1,0 +1,78 @@
+.navbar{
+    height: 63px;
+    box-shadow: 0 5px 5px 0 rgba(148, 148, 148, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 80%;
+    right: 0;
+    z-index: 12;
+    background-color: white;
+  }
+
+  Button.BT{
+    font-size: 11px;
+    text-transform: none;
+    height: 34px;
+    width:50px;
+    float:right;
+    left:167em;
+    background-color: #505e67;
+    color: white;
+    margin-top:20%;
+  border: 'none';
+  border-radius: '2 px';
+  }
+  
+    Button.BT:focus{
+      background-color: grey;
+    } 
+    Button.BT:hover{
+  background-color:#262e33;
+    }
+  
+Button.bt{
+  font-size: 11px;
+text-transform: none;
+height: 34px;
+width:50px;
+float:right;
+left:157em;
+background-color: #505e67;
+color: white;
+margin-top:20%;
+}
+
+  Button.bt:focus{
+    background-color: grey;
+  } 
+  Button.bt:hover{
+background-color:#262e33;
+  }
+
+  Button.bt1{
+    margin-top:20%;
+    font-size: 11px;
+  text-transform: none;
+  height: 34px;
+  width:60px;
+float:right;
+left:159em;
+  background-color: #004884;
+  color: white;
+ 
+ 
+  }
+  
+    .bt1:focus{
+      background-color: grey;
+    } 
+
+    Button.bt1:hover{
+      background-color:#226691;
+        }
+  
+body{
+  background-color:rgba(241,243,247,255);
+}
+
