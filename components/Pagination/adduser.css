@@ -1,0 +1,275 @@
+
+  
+  .page{
+    position:relative;
+    float:right;
+  
+  }
+  
+  
+  
+  h4{
+    text-align: center;
+  
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  p.para{
+    color: darkgrey;
+    text-align: center;
+  }
+  p.para1{
+    color: grey;
+  text-align: center;
+  }
+
+  .username2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+    left:20px;
+   
+  }
+  
+  .username2:focus {
+    background-color: #ddd;
+    outline: none; 
+  }
+  .username2 input {
+    height: 40px;
+    padding: 0px 14px;
+    background-color:white;  
+    font-size: medium; 
+  }
+  
+  
+  
+  
+  .email2{
+    width: 90%; 
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;    
+    border: none; 
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+    left:20px;
+  }
+  
+  .email2:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .email2 input {
+    height: 40px;
+    padding: 0px 14px;
+    background-color: white;
+    font-size: medium; 
+  }
+  
+  .firstname2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+    left:20px;
+  }
+  
+  .firstname2:focus {
+    background-color: #ddd;
+    outline: none; 
+  }
+  
+  .firstname2 input {
+    height: 40px;
+    padding: 0px 14px;
+    background-color: white;
+    font-size: medium; 
+  }
+  
+  .lastname2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+    left:20px;
+  }
+  
+  .lastname2:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .lastname2 input {
+    height: 40px;
+    padding: 0px 14px;
+    background-color: white;
+    font-size: medium; 
+  }
+  
+  .password2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+    left:20px;
+  }
+  
+  .password2:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .password2 input {
+    height: 40px;
+    padding: 0px 14px;
+    background-color: white;
+    font-size: medium; 
+  }
+  
+  .dob2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+    left:20px;
+  }
+  
+  .dob2:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .dob2 input {
+    height: 40px;
+    padding: 0px 14px;
+    background-color: white;
+    font-size: medium; 
+  }
+  
+  .about_me2{
+    width: 90%;
+    padding: 18px;
+    margin: 5px 0 20px 0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: medium;
+    left:20px;
+  }
+  
+  .about_me2 {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .about_me2 input {
+    height: 40px;
+    padding: 0px 14px;
+    background-color: white;
+    font-size: medium; 
+  }
+  
+  
+  
+  /*  span{
+      color: grey;
+    } */
+   
+  .labeladd{
+   opacity: 0.7;
+   position: relative;
+  left: 20px;
+  font-weight: lighter;
+  
+  }
+  
+    p.error{
+  color: tomato;
+  position: relative;
+  left:20px;
+    }
+  
+  
+  
+    
+  
+     .bttn{
+   background-color: #04AA6D;
+      color: white; 
+      padding: 14px 20px;
+      margin: 0px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      font-weight: bold;
+      font-size: medium;
+      position: relative; 
+    height: 45px;
+    border-radius: 0%;
+  
+   
+  
+    } 
+    .bttn:hover{
+      color: white;
+    }
+  .bttn:disabled{
+     background-color: #8ce9c7;
+     color: white;
+   } 
+  
+   label span.required:after{content:" *"}
+  
+  .b1{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 10px;
+    top: 4px;
+    font-size: 30px;
+    background: #ffffff;
+    border: none;
+  }
+  
+
+  
